@@ -1,0 +1,18 @@
+import { Col, Layout, Row } from "antd";
+const { Footer } = Layout;
+
+import themeConfig from '../../../configs/themeConfig.jsx';
+
+export default function MenuFooter() {
+  return (
+    <Footer className="hp-bg-color-black-10 hp-bg-color-dark-100">
+      <Row align="middle" justify="space-between">
+        <Col md={12} span={24}>
+          <p className="hp-badge-text hp-mb-0 hp-text-color-dark-30">
+            COPYRIGHT ©2021 Hypeople, All rights Reserved
+          </p>
+        </Col>
+      </Row>
+    </Footer>
+  );
+};
